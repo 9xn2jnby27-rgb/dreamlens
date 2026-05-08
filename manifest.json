@@ -1,0 +1,17 @@
+{
+  "name": "DreamLens — Journal IA des Rêves",
+  "short_name": "DreamLens",
+  "description": "Analyse tes rêves avec l'intelligence artificielle",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#04040E",
+  "theme_color": "#04040E",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://fav.farm/🌙",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
