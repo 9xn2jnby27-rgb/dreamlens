@@ -1,5 +1,30 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
+// ─── STRIPE CONFIG ────────────────────────────────────────────────────────────
+const STRIPE_PK = "pk_live_51TUw64Pi6VPpqQfXwrq0lWI8lGo16CLawyG68cBl2yJ9R0Dyr9Gu7XbQFvctruIzakQC6O2Tzpr0Juerie6BqRTC00nS0OedEv";
+const STRIPE_PRICES = {
+  weekly:  "price_1TUwO1Pi6VPpqQfXo98DB0QU",
+  monthly: "price_1TUwOzPi6VPpqQfXEkkC8CEf",
+  yearly:  "price_1TUwPhPi6VPpqQfXaQX3MDe9",
+};
+
+async function redirectToStripe(planId) {
+  const priceId = STRIPE_PRICES[planId];
+  if (!priceId) return;
+  try {
+    const stripe = window.Stripe(STRIPE_PK);
+    await stripe.redirectToCheckout({
+      lineItems: [{ price: priceId, quantity: 1 }],
+      mode: "subscription",
+      successUrl: window.location.origin + "?success=1",
+      cancelUrl: window.location.origin + "?cancelled=1",
+    });
+  } catch (e) {
+    console.error("Stripe error:", e);
+    alert("Erreur de paiement, réessaie dans un instant.");
+  }
+}
+
 // ─── DESIGN TOKENS ────────────────────────────────────────────────────────────
 const C = {
   void:     "#04040E",
@@ -253,7 +278,8 @@ function Paywall({ onClose, onBuy }) {
           </div>
         ))}
 
-        <button onClick={() => onBuy(sel)} style={{
+
+        <button onClick={() => redirectToStripe(sel)} style={{
           width: "100%", padding: 16, borderRadius: 14, border: "none", cursor: "pointer",
           background: `linear-gradient(135deg, ${C.gold}, ${C.nebula})`,
           color: C.void, fontWeight: 800, fontSize: 16,
