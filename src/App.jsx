@@ -23,9 +23,145 @@ const C = {
 const KB = [
   { keys:["dents","dent","tombent","mâchoire","sourire","bouche","craquer","cassé"],
     i:[
-      "Les dents qui tombent est l'un des rêves les plus universels de l'humanité — des millions de personnes le font, toutes cultures confondues, et Jung y voyait un signal particulièrement puissant de l'inconscient. Les dents symbolisent ta puissance personnelle, ta capacité à t'affirmer dans le monde et l'image que tu projettes aux autres. Les perdre en rêve traduit une peur profonde de perdre le contrôle sur quelque chose d'important — une relation, une situation, ou l'image que tu renvoies aux gens qui comptent pour toi. Ce rêve est extrêmement fréquent chez les étudiants en période d'examens — il traduit directement la peur du jugement et la pression de la performance. La bonne nouvelle : ce rêve n'annonce rien de concret. C'est ton inconscient qui traite une tension réelle, ce qui signifie que tu es en train de la traverser, pas de la fuir.",
-      "Les dents qui tombent parlent de ton rapport à l'image de toi-même et à ta place dans le regard des autres. Freud y voyait une anxiété liée à l'apparence sociale ; Jung, une perte temporaire de puissance intérieure. Ce rêve survient souvent quand tu traverses une période où tu te sens jugée ou évaluée — examens, entretiens, nouvelles rencontres. Il peut aussi signaler quelque chose que tu n'oses pas encore dire à voix haute. Ton inconscient te demande de retrouver confiance en ta propre valeur, indépendamment du regard extérieur.",
+      "Les dents qui tombent est l'un des rêves les plus universels de l'humanité — Jung y voyait un signal particulièrement puissant de l'inconscient. Les dents symbolisent ta puissance personnelle et l'image que tu projettes aux autres. Les perdre traduit une peur profonde de perdre le contrôle sur quelque chose d'important. Ce rêve est extrêmement fréquent en période d'examens ou de pression sociale — il traduit directement la peur du jugement. La bonne nouvelle : ce rêve n'annonce rien de concret, c'est ton inconscient qui traite une tension réelle.",
+      "Les dents qui tombent parlent de ton rapport à l'image de toi-même et au regard des autres. Freud y voyait une anxiété liée à l'apparence sociale ; Jung, une perte temporaire de puissance intérieure. Ce rêve survient souvent quand tu te sens jugé ou évalué — examens, entretiens, nouvelles rencontres. Ton inconscient te demande de retrouver confiance en ta propre valeur, indépendamment du regard extérieur.",
     ]},
+  { keys:["police","policier","gendarme","contrôle","arrêté","menottes","garde à vue","tribunal","juge","loi","interdit","fouille","amende"],
+    i:[
+      "La police ou les figures d'autorité dans les rêves représentent la partie de toi-même qui surveille, juge et contrôle tes propres comportements — ce que Jung appelait la Persona, le masque social. Être contrôlé ou arrêté symbolise un sentiment de culpabilité refoulée ou une peur de transgresser des règles — pas forcément des règles légales, mais des règles que tu t'imposes à toi-même ou que d'autres t'ont imposées. Ton inconscient te demande d'examiner dans quelle mesure tu te censures inutilement.",
+      "Rêver de police ou d'autorité traduit souvent un conflit intérieur entre ce que tu veux faire et ce que tu penses être autorisé à faire. Cette figure d'autorité est une projection de ta propre conscience morale — sévère, surveillante, inflexible. Ce rêve survient fréquemment chez ceux qui vivent sous une pression externe forte, qu'elle soit familiale, scolaire ou professionnelle. Il t'invite à questionner quelles règles méritent vraiment d'être suivies.",
+    ]},
+  { keys:["vol","voler","volais","envol","planer","ailes","décollais","planais"],
+    i:[
+      "L'envol est le symbole le plus puissant de l'inconscient — Jung y voyait la transcendance de l'ego et le dépassement des limites que tu t'imposes toi-même. Cette sensation de légèreté traduit une libération en cours dans ta vie réelle. Quelque chose qui te pesait commence à se dissoudre. La hauteur que tu atteignes indique l'ampleur de cette transformation intérieure.",
+      "Voler en rêve est l'expression directe d'un désir de liberté que tu n'oses peut-être pas encore pleinement revendiquer. L'absence de peur dans cet envol révèle une confiance intérieure qui grandit. Freud associait ce type de rêve à la volonté de puissance et au dépassement des contraintes. Ton inconscient te dit que tu es capable de bien plus que tu ne le crois.",
+    ]},
+  { keys:["eau","mer","océan","rivière","lac","pluie","nager","vague","noyé","plonger","marée","ruisseau","inondation","piscine"],
+    i:[
+      "L'eau est le langage maternel de l'inconscient — sa présence signale une période de transformation émotionnelle profonde. Selon Jung, l'étendue d'eau représente la totalité de la psyché : ses profondeurs sont tes émotions non explorées, sa surface ce que tu montres au monde. La clarté ou la turbulence de cette eau te parle directement de ton état émotionnel actuel.",
+      "Symbole universel des émotions, l'eau de ton rêve porte un message sur ta vie affective. Les eaux profondes évoquent ce que tu n'oses pas encore ressentir pleinement ; les eaux agitées, des émotions en mouvement qui demandent à être accueillies. Ce rêve t'invite à plonger dans ce que tu ressens vraiment, sans le filtrer.",
+    ]},
+  { keys:["maison","chambre","pièce","couloir","escalier","porte","fenêtre","grenier","cave","appartement","immeuble","villa","château"],
+    i:[
+      "La maison est l'archétype du Soi selon Jung — chaque pièce représente une facette de ta personnalité. Les pièces inconnues symbolisent des potentiels encore inexploités. Ton inconscient t'invite à explorer des aspects de toi-même que tu n'as pas encore eu le courage de regarder.",
+      "Rêver d'une maison avec des espaces inconnus est un signe que ton psyché est en pleine expansion. Les pièces fermées représentent les pensées refoulées, les escaliers le passage entre différents états de conscience. La façon dont tu navigues dans cet espace révèle comment tu gères ta propre complexité intérieure.",
+    ]},
+  { keys:["chute","tomber","tombais","précipice","vide","abîme","glisser","vertige","bord"],
+    i:[
+      "La chute traduit une perte de maîtrise ressentie quelque part dans ta vie éveillée. Mais ce rêve est rarement un mauvais présage — il exprime souvent un lâcher-prise nécessaire. Ton inconscient te signale qu'il est temps de relâcher le contrôle sur quelque chose qui t'épuise. La chute précède toujours un nouveau sol, une nouvelle fondation.",
+      "Tomber en rêve révèle une tension entre ce que tu contrôles et ce qui t'échappe. Ce vertige symbolique est le langage de l'anxiété transformée en image. Paradoxalement, les personnes qui touchent le sol dans leur rêve de chute font preuve d'une grande résilience. Ton inconscient te prépare à atterrir en douceur.",
+    ]},
+  { keys:["poursuite","poursuivi","fuir","fuite","courir","chassé","monstre","danger","attaque","menaçait","rattrapé"],
+    i:[
+      "Être poursuivi est le miroir de ce que tu fuis dans ta vie éveillée — une décision difficile, une émotion douloureuse, une conversation que tu repousses. Ton poursuivant n'est autre qu'une partie de toi-même que tu refuses d'intégrer. Plus il est terrifiant, plus ce que tu évites est important.",
+      "La fuite onirique est le langage universel de l'évitement psychologique. Ton inconscient met en scène sous forme de danger ce que tu n'oses pas encore affronter consciemment. Freud y voyait souvent des figures d'autorité refoulées ; Jung, des aspects de l'ombre personnelle à intégrer.",
+    ]},
+  { keys:["mort","mourir","décès","enterrement","fantôme","disparaître","cadavre","funérailles","cimetière","deuil"],
+    i:[
+      "Contrairement à la crainte qu'il inspire, rêver de mort est presque universellement un symbole de transformation — jamais un présage littéral. Jung en faisait le symbole ultime du renouveau : quelque chose doit mourir symboliquement pour qu'une version plus authentique de toi puisse émerger. C'est un rêve de renaissance, pas de fin.",
+      "La mort dans les rêves célèbre une transition. Les traditions chamaniques du monde entier voyaient dans ce type de rêve une initiation. Ton inconscient te prépare à laisser partir quelque chose qui ne te sert plus.",
+    ]},
+  { keys:["enfant","bébé","enfance","jouet","école","petit","bambin","nourrisson","grossesse","naissance"],
+    i:[
+      "L'enfant qui apparaît incarne l'archétype jungien de l'enfant divin — la part de toi qui conserve la créativité originelle et la spontanéité. Sa présence suggère un besoin de reconnecter avec tes aspirations les plus authentiques, ou une blessure ancienne qui demande à être guérie.",
+      "Rêver d'enfance traduit un appel à revenir à l'essentiel. Freud y voyait le retour du désir refoulé ; Jung, le potentiel inexploité qui attend d'éclore. Si tu prends soin de cet enfant dans ton rêve, c'est que tu commences à prendre soin de tes propres besoins profonds.",
+    ]},
+  { keys:["loup","lion","serpent","oiseau","chat","chien","cheval","araignée","tigre","ours","aigle","animal","insecte","requin","crocodile","renard"],
+    i:[
+      "Les animaux dans les rêves sont des messagers de l'inconscient profond — ils parlent le langage des instincts que la civilisation nous a appris à taire. Cet animal représente une force ou une qualité que tu as en toi et que tu n'as pas encore pleinement reconnue.",
+      "Selon Jung, les animaux incarnent l'ombre — ces forces primaires que la raison ne contrôle pas. La façon dont tu interagis avec cet animal révèle comment tu vis tes propres instincts. Le dominer symbolise la maîtrise de soi ; le fuir, la peur de ta propre puissance ; l'apprivoiser, l'intégration de ta nature profonde.",
+    ]},
+  { keys:["forêt","bois","arbres","montagne","désert","île","jardin","nature","jungle","prairie","plage","falaise"],
+    i:[
+      "Les grands espaces naturels sont le territoire de l'inconscient non domestiqué. Ce paysage représente les étendues de ta psyché encore inexplorées — à la fois inquiétantes et chargées de promesses. Jung voyait dans la forêt le symbole de l'inconscient collectif.",
+      "La nature dans les rêves parle à l'âme dans son langage originel. Ce paysage est un reflet exact de ton état intérieur profond. La beauté ou l'hostilité du lieu traduit ce que tu vis en ce moment à un niveau que les mots ne peuvent pas encore exprimer.",
+    ]},
+  { keys:["feu","flamme","incendie","brûler","brûlait","fumée","chaleur","explosion"],
+    i:[
+      "Le feu est l'archétype de la transformation par excellence — il détruit pour mieux recréer. Sa présence dans ton rêve signale une énergie puissante qui cherche à s'exprimer, une passion ou une colère que tu n'as pas encore laissé s'exprimer pleinement. Freud y voyait la libido dans sa forme la plus brûlante.",
+      "Rêver de feu traduit une intensité émotionnelle forte — désir, colère, passion ou ambition — qui cherche une sortie. Si le feu est maîtrisé il représente ton énergie vitale en pleine puissance ; s'il est destructeur, une situation qui t'échappe. Dans les deux cas, c'est une énergie qui demande à être canalisée.",
+    ]},
+  { keys:["lumière","soleil","étoile","briller","éblouissant","obscurité","ténèbres","ombre","nuit","noir","clair","lampe"],
+    i:[
+      "La lumière en rêve est le symbole universel de la conscience qui s'éveille. Sa présence signale une prise de conscience imminente — quelque chose qui était dans l'ombre commence à être éclairé. Jung associait la lumière à l'émergence du Soi.",
+      "Le jeu de lumière et d'ombre dans ton rêve touche aux archétypes les plus fondamentaux de la psyché. Cette clarté ou cette obscurité parle de ta vitalité et de ce qui te fait avancer ou te retient. Laisse cette énergie t'indiquer la direction.",
+    ]},
+  { keys:["amour","embrasser","baiser","séduction","couple","ex","partenaire","rencontre","attirer","relation","rupture","jalousie","tromperie","infidèle"],
+    i:[
+      "Les rêves amoureux mettent en scène l'anima ou l'animus jungien — ces figures intérieures qui incarnent les qualités que nous cherchons à intégrer. La personne que tu rencontres symbolise souvent une qualité — douceur, force, liberté — que tu veux développer en toi-même.",
+      "L'amour dans les rêves parle de tes besoins d'intimité et de connexion les plus profonds. Si tu ressens une joie intense, c'est que tu es proche d'une forme d'harmonie intérieure. Une rupture ou une trahison en rêve signale souvent une trahison envers toi-même, pas envers l'autre.",
+    ]},
+  { keys:["travail","bureau","patron","collègue","licencié","viré","démission","réunion","entretien","boulot","job","chômage"],
+    i:[
+      "Les rêves liés au travail traduisent le syndrome de l'imposteur — cette voix intérieure qui doute de ta valeur. Ton inconscient met en scène tes peurs professionnelles pour te permettre de les traverser en sécurité. C'est une répétition psychologique qui te prépare à affronter les défis réels avec plus de confiance.",
+      "Être licencié ou en difficulté au travail en rêve est le signe d'une pression que tu te mets à toi-même. Ton inconscient te parle de perfectionnisme ou de peur du jugement. La bonne nouvelle : ce type de rêve survient justement quand tu as les ressources nécessaires pour faire face.",
+    ]},
+  { keys:["examen","partiel","bac","contrôle","note","raté","échoué","concours","résultat","copie","révision"],
+    i:[
+      "Rêver d'examen raté est l'un des rêves les plus répandus chez les étudiants et les adultes — même des années après avoir quitté l'école. Il traduit une peur d'être évalué et jugé insuffisant, dans n'importe quel domaine de ta vie. Ton inconscient te met à l'épreuve pour t'aider à dépasser cette peur.",
+      "L'examen dans les rêves est la métaphore parfaite de la pression de performance. Même si tu n'es plus étudiant, ce rêve signale une situation dans ta vie où tu te sens évalué — au travail, en amour, en société. Il t'invite à te demander : est-ce que je m'impose des standards trop élevés ?",
+    ]},
+  { keys:["voiture","conduire","accident","frein","vitesse","route","camion","moto","véhicule","volant","chauffeur","taxi"],
+    i:[
+      "La voiture en rêve est un symbole de ta trajectoire de vie et de ton sentiment de contrôle sur elle. Conduire avec assurance reflète une confiance dans la direction que tu prends ; perdre le contrôle, freins défaillants ou accident, signale une situation où tu te sens dépassé par les événements. La question clé : qui tient le volant de ta vie en ce moment ?",
+      "Rêver d'accident ou de perte de contrôle d'un véhicule traduit une anxiété face à la vitesse des changements dans ta vie. Ton inconscient te demande de lever le pied, de reprendre le contrôle consciemment avant que les choses t'échappent vraiment. Le véhicule est toi — prends soin de lui.",
+    ]},
+  { keys:["argent","billet","riche","pauvre","voler","perdre","trouver","dette","banque","payer","dépenser","trésor","gagner"],
+    i:[
+      "L'argent dans les rêves représente rarement l'argent réel — il symbolise l'énergie, la valeur personnelle et le pouvoir. Trouver de l'argent signale une prise de conscience de tes propres ressources intérieures ; en perdre, une peur de ne pas être à la hauteur ou de manquer de ressources — émotionnelles, créatives ou relationnelles.",
+      "Rêver d'argent parle de ta relation à ta propre valeur et à ce que tu mérites. Freud voyait dans l'argent un substitut symbolique de la libido — une énergie qui circule ou qui est bloquée. Si tu cherches de l'argent en rêve, demande-toi ce que tu cherches vraiment dans ta vie en ce moment.",
+    ]},
+  { keys:["parents","père","mère","famille","frère","sœur","grand-père","grand-mère","oncle","tante","enfants","mari","femme","conjoint"],
+    i:[
+      "Les membres de la famille en rêve sont rarement eux-mêmes — ils incarnent des archétypes ou des aspects de ta propre psyché. Le père symbolise l'autorité, la structure et la loi ; la mère, la protection, l'intuition et l'origine. Un conflit avec eux en rêve reflète souvent un conflit avec ces principes en toi-même.",
+      "Rêver de sa famille active les complexes les plus profonds de l'inconscient. Jung montrait que nos proches en rêve projettent nos propres tensions intérieures non résolues. Si la relation est harmonieuse dans le rêve, c'est signe d'intégration ; si elle est conflictuelle, une partie de toi cherche à se réconcilier avec ton histoire.",
+    ]},
+  { keys:["perdu","perdre","chemin","boussole","direction","carte","labyrinthe","errer","retrouver","orientation","destination"],
+    i:[
+      "Être perdu en rêve est l'expression directe d'un sentiment de manque de direction dans ta vie éveillée — une période de transition où les repères habituels ne fonctionnent plus. Ce n'est pas un échec, c'est une invitation à ralentir et à trouver ta propre boussole intérieure plutôt que de suivre celle des autres.",
+      "Le labyrinthe ou l'errance dans les rêves symbolise une quête de sens — tu cherches ton chemin dans une situation complexe sans solution évidente. Jung voyait dans ces rêves un processus d'individuation : l'âme qui cherche sa propre vérité en dehors des chemins balisés par la société.",
+    ]},
+  { keys:["guerre","combat","arme","fusil","couteau","violence","blessure","sang","blessé","attaque","soldat","bataille"],
+    i:[
+      "La guerre ou le combat en rêve symbolise un conflit intérieur intense — deux parties de toi-même qui s'affrontent. Les armes représentent les arguments, les défenses ou les blessures émotionnelles. Ce rêve signale une tension non résolue qui demande à être reconnue et négociée, pas ignorée.",
+      "Rêver de violence ou de combat traduit une énergie agressive refoulée qui cherche une sortie. Freud y voyait la pulsion de mort ; Jung, la confrontation nécessaire avec l'ombre. Cette agression n'est pas négative en soi — elle représente une énergie vitale qui demande à être canalisée de façon constructive.",
+    ]},
+  { keys:["école","classe","professeur","cours","élève","tableau","cahier","cartable","université","amphi","faculté"],
+    i:[
+      "L'école en rêve représente le lieu où tu apprends les règles du monde et où tu es évalué. Y retourner en rêve — surtout si on a quitté l'école depuis longtemps — signale une situation dans ta vie actuelle où tu te sens à nouveau en position d'apprenti, jugé ou testé. C'est une invitation à aborder cette situation avec curiosité plutôt qu'avec anxiété.",
+      "Rêver de la salle de classe active des mémoires profondes liées au jugement, à la performance et à la place qu'on occupe parmi les autres. Ton inconscient utilise ce cadre familier pour parler d'une situation présente où tu te sens observé ou évalué. La leçon à retenir : tu en sais déjà plus que tu ne le crois.",
+    ]},
+  { keys:["téléphone","portable","appel","message","sms","réseau","internet","réseaux sociaux","connexion","déconnecté","batterie"],
+    i:[
+      "Le téléphone en rêve symbolise la communication et le lien avec les autres — ou son absence. Ne pas pouvoir appeler, réseau absent, batterie morte : autant de métaphores d'un sentiment de déconnexion ou d'isolement que tu ressens dans ta vie éveillée. Quelqu'un ou quelque chose mérite peut-être plus d'attention de ta part.",
+      "Rêver de problèmes de communication téléphonique traduit une frustration dans l'expression de tes besoins ou dans ta capacité à être entendu. C'est le signe que quelque chose d'important n'est pas dit — une conversation qui attend, un besoin qui n'est pas exprimé. Ton inconscient t'invite à trouver le courage de communiquer.",
+    ]},
+  { keys:["nu","nudité","naked","déshabillé","sans vêtements","honte","exposé","regard"],
+    i:[
+      "Rêver qu'on est nu en public est l'un des rêves les plus universels — il traduit une peur d'être vu tel qu'on est vraiment, sans les masques sociaux. Freud y voyait le désir d'exhibitionnisme refoulé ; Jung, la peur de l'exposition de son vrai Soi. Ce rêve survient souvent avant une situation où tu vas devoir te montrer vulnérable ou authentique.",
+      "La nudité en rêve parle de vulnérabilité et d'authenticité. Si les autres ne semblent pas le remarquer dans ton rêve, c'est un signe positif — ton inconscient te dit que ta 'vraie nature' est plus acceptée que tu ne le crois. Si tu ressens de la honte, c'est une invitation à explorer quelle partie de toi tu n'oses pas encore montrer.",
+    ]},
+  { keys:["voyage","train","avion","valise","partir","départ","aéroport","gare","bateau","partir","arriver","destination","bagages"],
+    i:[
+      "Le voyage en rêve est une métaphore directe de ta trajectoire de vie. Le moyen de transport — train, avion, bateau — symbolise la façon dont tu avances : est-ce que tu contrôles ta direction ou est-ce que tu te laisses porter ? Les bagages représentent ce que tu transportes avec toi — souvenirs, responsabilités, relations.",
+      "Rêver de voyage traduit une aspiration au changement ou une transition en cours. L'aéroport ou la gare sont des espaces de passage — entre deux états, deux phases de vie. Manquer son avion signale une peur de rater une opportunité ; arriver à destination, la confiance dans ses choix.",
+    ]},
+  { keys:["magie","pouvoir","super-pouvoir","sorcier","magicien","sort","invisible","transformation","métamorphose"],
+    i:[
+      "La magie et les super-pouvoirs en rêve représentent des capacités que tu possèdes intérieurement mais que tu n'utilises pas encore pleinement. Être invisible symbolise un désir de liberté sans jugement ; se transformer, une flexibilité psychologique et une capacité d'adaptation remarquable. Ces rêves sont souvent des messages de confiance en soi de ton inconscient.",
+      "Rêver de pouvoirs magiques traduit un potentiel non exprimé qui cherche à se manifester. Jung voyait dans ces rêves le contact avec le Soi profond — cette partie de nous qui transcende les limites ordinaires. C'est une invitation à prendre davantage de risques créatifs dans ta vie éveillée.",
+    ]},
+  { keys:["prison","enfermé","prisonnier","cage","mur","barreaux","échapper","enfermé","piégé","sortir"],
+    i:[
+      "La prison en rêve symbolise un sentiment d'enfermement dans ta vie — une situation, une relation ou une croyance dont tu ne vois pas comment sortir. Les barreaux représentent les limites que tu perçois, réelles ou imaginaires. La question clé que pose ce rêve : qui a la clé de cette cage ? Dans la plupart des cas, c'est toi.",
+      "Être piégé ou enfermé en rêve traduit une frustration profonde face à des contraintes que tu vis comme insurmontables. Freud y voyait le refoulement à l'œuvre ; Jung, la nécessité de briser des schémas répétitifs. Ce rêve est inconfortable mais précieux — il pointe exactement là où tu as besoin de te libérer.",
+    ]},
+  { keys:["miroir","reflet","image","double","jumeau","sosie","se voir","apparence","visage"],
+    i:[
+      "Le miroir en rêve est l'un des symboles les plus puissants de la conscience de soi. Ce que tu vois dans le reflet n'est pas toujours ton visage réel — c'est une vérité que ton inconscient veut te montrer sur qui tu es vraiment, au-delà des apparences. Un reflet déformé signale une image de soi perturbée ; un reflet lumineux, une acceptation de soi en progrès.",
+      "Rêver de son propre reflet active le processus jungien d'individuation — la quête de la connaissance de soi authentique. Ce miroir te pose la question fondamentale : est-ce que tu te vois vraiment tel que tu es, ou tel que tu voudrais être, ou tel que les autres te voient ? C'est une invitation à regarder en face sans filtre.",
+    ]},
+];
   { keys:["vol","voler","volais","envol","planer","ailes","décollais","planais"],
     i:[
       "L'envol est le symbole le plus puissant de l'inconscient — Jung y voyait la transcendance de l'ego, le dépassement des limites que tu t'imposes toi-même. Cette sensation de légèreté absolue traduit une libération en cours dans ta vie réelle. Quelque chose qui te pesait commence à se dissoudre. La hauteur que tu atteignes indique l'ampleur de cette transformation intérieure.",
