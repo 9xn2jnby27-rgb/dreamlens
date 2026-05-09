@@ -21,6 +21,11 @@ const C = {
 
 // ─── ANALYSIS ENGINE ──────────────────────────────────────────────────────────
 const KB = [
+  { keys:["dents","dent","tombent","mâchoire","sourire","bouche","craquer","cassé"],
+    i:[
+      "Les dents qui tombent est l'un des rêves les plus universels de l'humanité — des millions de personnes le font, toutes cultures confondues, et Jung y voyait un signal particulièrement puissant de l'inconscient. Les dents symbolisent ta puissance personnelle, ta capacité à t'affirmer dans le monde et l'image que tu projettes aux autres. Les perdre en rêve traduit une peur profonde de perdre le contrôle sur quelque chose d'important — une relation, une situation, ou l'image que tu renvoies aux gens qui comptent pour toi. Ce rêve est extrêmement fréquent chez les étudiants en période d'examens — il traduit directement la peur du jugement et la pression de la performance. La bonne nouvelle : ce rêve n'annonce rien de concret. C'est ton inconscient qui traite une tension réelle, ce qui signifie que tu es en train de la traverser, pas de la fuir.",
+      "Les dents qui tombent parlent de ton rapport à l'image de toi-même et à ta place dans le regard des autres. Freud y voyait une anxiété liée à l'apparence sociale ; Jung, une perte temporaire de puissance intérieure. Ce rêve survient souvent quand tu traverses une période où tu te sens jugée ou évaluée — examens, entretiens, nouvelles rencontres. Il peut aussi signaler quelque chose que tu n'oses pas encore dire à voix haute. Ton inconscient te demande de retrouver confiance en ta propre valeur, indépendamment du regard extérieur.",
+    ]},
   { keys:["vol","voler","volais","envol","planer","ailes","décollais","planais"],
     i:[
       "L'envol est le symbole le plus puissant de l'inconscient — Jung y voyait la transcendance de l'ego, le dépassement des limites que tu t'imposes toi-même. Cette sensation de légèreté absolue traduit une libération en cours dans ta vie réelle. Quelque chose qui te pesait commence à se dissoudre. La hauteur que tu atteignes indique l'ampleur de cette transformation intérieure.",
