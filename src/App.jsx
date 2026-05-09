@@ -220,7 +220,7 @@ const SYMBOLS = [
 const PLANS = [
   { id:"weekly",  name:"Hebdo",   price:"2,99€", period:"/semaine", tag:null,      color:C.nebula },
   { id:"monthly", name:"Mensuel", price:"6,99€", period:"/mois",    tag:"⭐ Pop",  color:C.gold },
-  { id:"yearly",  name:"Annuel",  price:"2,99€", period:"/mois",    tag:"🔥 -57%", color:C.teal },
+  { id:"yearly",  name:"Annuel",  price:"35,88€", period:"/an",    tag:"🔥 -57%", color:C.teal },
 ];
 
 const ADS = [
